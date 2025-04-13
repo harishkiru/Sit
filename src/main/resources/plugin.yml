@@ -1,0 +1,13 @@
+name: Sit
+version: 1.0
+main: dev.harish.sit.Sit
+api-version: 1.20
+commands:
+  sit:
+    description: Makes the player sit
+    usage: /sit
+    permission: sit.use
+  sitreload:
+    description: Reload the Sit plugin cleanly
+    usage: /sitreload
+    permission: sit.reload
